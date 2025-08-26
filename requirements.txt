@@ -1,0 +1,39 @@
+# SecureVision - AI-Powered Vulnerability Detection
+# Core Dependencies
+
+# Web Framework
+streamlit>=1.28.0
+
+# Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Computer Vision
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# Natural Language Processing (Optional - fallback to mock if unavailable)
+transformers>=4.30.0
+
+# Data Science & Visualization
+numpy>=1.24.0
+pandas>=2.0.0
+plotly>=5.15.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Optional: Additional ML libraries
+scikit-learn>=1.3.0
+
+# Utilities
+requests>=2.31.0
+
+# Development Dependencies (Optional)
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Note: Some dependencies are optional and will gracefully degrade if not available
+# The application includes fallback implementations for core functionality
